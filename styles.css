@@ -23,7 +23,7 @@ form {
     padding: 10px;
 }
 nav {
-    left: 10%;
+    left: 1%;
     top: 10%
 }
 
@@ -54,7 +54,7 @@ img {
     font-family: 'Roboto', sans-serif !important;
 }
 
-h3 {
+#title {
     color: rgb(201, 6, 6) !important;
     font-weight: 400 !important;
     font-size: 15pt !important;
