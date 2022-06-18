@@ -17,14 +17,13 @@ form {
     height: 300px;
     text-align: center;
     position: fixed;
-    top: 50%;
+    top: 43%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 10px;
 }
-nav {
-    left: 1%;
-    top: 10%
+#google-img {
+    transform: translate(20%, 60%);
 }
 
 .navbar-brand {
@@ -36,7 +35,7 @@ nav {
     text-decoration: underline;
 }
 
-img {
+.google-logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -58,9 +57,48 @@ img {
     color: rgb(201, 6, 6) !important;
     font-weight: 400 !important;
     font-size: 15pt !important;
-    padding-left: 10px !important;
+    padding-left: 50px !important;
+}
+
+#linkback {
+    font-weight: 400 !important;
+    font-size: 15pt !important;
+    padding-left: 50px !important;
 }
 
 .advanced { 
-    left: 40% !important;
+    right: 50% !important;
+}
+
+label {
+    width: 250px;
+    padding-left: 50px;
+    display: inline-block;
+
+}
+
+.advanced-label {
+    font-size: 13px;
+}
+
+input {
+    width: 520px;
+    text-align: left !important;
+}
+
+.blue {
+    background-color: #4d90fe;
+    border-color: #4d90fe;
+    font-size: 13px;
+    color: white !important;
+    
+}
+
+#google-link {
+    text-align: right;
+}
+
+.button-wrapper {
+    padding-left: 400px;
+    display: block;
 }

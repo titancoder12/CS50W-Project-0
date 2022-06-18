@@ -1,27 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Search</title>
+        <title>Google Advanced Search</title>
         <link href="styles.css" rel="stylesheet">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     </head>
     <body>
         <nav class="navbar px-3">
-            <a href="index.html"><img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" width="50" height="20"></a>
+            <a href="index.html"><img id="google-img" src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg"></a>
+            <a class="navbar-brand" href="index.html">Google Search</a>
         </nav>
-        
-        <label id="title">Advanced Search</label>
+        <br>
+        <br>
+            <label id="title">Advanced Search</label> <!--label id="linkback"><a href="index.html">Google Search</a><label-->
         <hr>
-
+        <br>
         <form class="advanced-form" action="https://www.google.com/search">
-            <label>Find pages with:</label>
-            <br>
-            All these words: <input class="advanced"></input> 
-            <br>
-            this exact word or phrase: <input class="advanced"></input>
-            <br>
-            any of these words: <input class="advanced"></input>
-            <br>
-            none of these words: <input class="advanced"></input>
+            <label>Find pages with...</label>
+            <br><br>
+            <label class="advanced-label">all these words:</label><input name="as_q" autofocus class="advanced">
+            <br><br>
+            <label class="advanced-label">this exact word or phrase:</label><input name="as_epq" class="advanced">
+            <br><br>
+            <label class="advanced-label">any of these words:</label><input name="as_oq" class="advanced">
+            <br><br>
+            <label class="advanced-label">none of these words:</label><input name="as_eq" class="advanced">
+            <br><br>
+            <div class="button-wrapper">
+                <input type="submit" class="blue" style="width:120px; height:30px;" value="Advanced Search">
+            </div>
         </form>
     </html>
