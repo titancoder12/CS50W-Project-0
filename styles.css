@@ -102,3 +102,12 @@ input {
     padding-left: 400px;
     display: block;
 }
+
+#gap {
+    padding-right: 10px !important;
+    color: black !important;
+}
+
+.black {
+    color: black;
+}
